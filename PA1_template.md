@@ -77,7 +77,7 @@ qplot(steps, data = totalStepsPerDay, geom = "histogram",binwidth =
 500,xlab = "Total \# of Daily Steps", ylab = "Frequency of Times Per
 Day", y = ..density.., fill = I("white"), colour = I("black")) +
 stat\_density(geom = "line") \#\#This displays the graph: ![alt
-text](C:\Users\gregg.abramovich\Desktop\R%20Notes!\figures_1\RplotdailyStepsvsFrequencyperDay.png)
+text](![alt text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotdailyStepsvsFrequencyperDay.png))
 
 Calculate mean daily number of steps
 ------------------------------------
@@ -119,7 +119,7 @@ This displays the graph:
 ------------------------
 
 ![alt
-text](C:\Users\gregg.abramovich\Desktop\R%20Notes!\figures_1\RplotDailyActivityPattern.png)
+text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotDailyActivityPattern.png)
 
 Which 5 minute interval, on average across all days in the dataset contains the nax number of steps
 ---------------------------------------------------------------------------------------------------
@@ -205,7 +205,7 @@ This displays the graph:
 ------------------------
 
 ![alt
-text](C:\Users\gregg.abramovich\Desktop\R%20Notes!\figures_1\RplotdailyStepsvsFrequencyperDayFilled.png)
+text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotdailyStepsvsFrequencyperDayFilled.png)
 
 Calculate and report the mean and median total number of steps taken per day
 ----------------------------------------------------------------------------
@@ -247,4 +247,4 @@ This displays the graph:
 ------------------------
 
 ![alt
-text](C:\Users\gregg.abramovich\Desktop\R%20Notes!\figures_1\RplotdayType%20Comparison.png)
+text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotdayType%20Comparison.png)
