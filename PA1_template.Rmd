@@ -5,8 +5,7 @@
 ---
 title: "title: "PA1_template""
 author: Gregg Abramovich
-date: March 22, 2005
-output: md_document
+output: html_document
 ---
 ---
 
