@@ -77,7 +77,7 @@ qplot(steps, data = totalStepsPerDay, geom = "histogram",binwidth =
 500,xlab = "Total \# of Daily Steps", ylab = "Frequency of Times Per
 Day", y = ..density.., fill = I("white"), colour = I("black")) +
 stat\_density(geom = "line") \#\#This displays the graph: ![alt
-text](![alt text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotdailyStepsvsFrequencyperDay.png))
+text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotdailyStepsvsFrequencyperDay.png))
 
 Calculate mean daily number of steps
 ------------------------------------
