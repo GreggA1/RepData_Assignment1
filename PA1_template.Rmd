@@ -57,7 +57,8 @@ totalStepsPerDay <- data.frame(totalStepsPerDay) ##convert to data frame for grp
 ## Histogram of total of steps per day, with NA's
 qplot(steps, data = totalStepsPerDay, geom = "histogram",binwidth = 500,xlab = "Total # of Daily Steps", ylab = "Frequency of Times Per Day", y = ..density.., fill = I("white"), colour = I("black")) + stat_density(geom = "line")
 ##This displays the graph:
-![alt text](C:\Users\gregg.abramovich\Desktop\R Notes!\figures_1\RplotdailyStepsvsFrequencyperDay.png)
+![alt text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotdailyStepsvsFrequencyperDay.png)
+
 
 ## Calculate mean daily number of steps
 mean(totalStepsPerDay$steps)
@@ -80,7 +81,7 @@ colnames(stepsPerInterval) <- c("interval", "steps")
 ggplot(stepsPerInterval, aes(x=interval, y=steps)) + geom_line(color=I("black"), size=1) + labs(title="Daily Activity Pattern", x="5 minute intervals", y="Number of steps counted")
 
 ##This displays the graph:
-![alt text](C:\Users\gregg.abramovich\Desktop\R Notes!\figures_1\RplotDailyActivityPattern.png)
+![alt text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotDailyActivityPattern.png)
 
 ##Which 5 minute interval, on average across all days in the dataset contains the nax number of steps
 max(stepsPerInterval$steps)
@@ -141,7 +142,7 @@ totalStepsPerDayFilled <- data.frame(totalStepsPerDayFilled) ##convert to data f
 qplot(steps, data = totalStepsPerDayFilled, geom = "histogram",binwidth = 500,xlab = "Total # of Daily Steps", ylab = "Frequency of Times Per Day", y = ..density.., fill = I("white"), colour = I("black")) + stat_density(geom = "line")
 
 ##This displays the graph:
-![alt text](C:\Users\gregg.abramovich\Desktop\R Notes!\figures_1\RplotdailyStepsvsFrequencyperDayFilled.png)
+![alt text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotdailyStepsvsFrequencyperDayFilled.png)
 
 ##Calculate and report the mean and median total number of steps taken per day
 mean(totalStepsPerDayFilled$steps)
@@ -172,5 +173,5 @@ sInt = aggregate(steps ~ interval + wDay, activityDataSetFilled2, mean)
 xyplot(steps ~ interval | factor(wDay), data = sInt, aspect = 1/2,  type = "l")
 
 ##This displays the graph:
-![alt text](C:\Users\gregg.abramovich\Desktop\R Notes!\figures_1\RplotdayType Comparison.png)
+![alt text](https://github.com/GreggA1/RepData_Assignment1/blob/master/figures_1/RplotdayType%20Comparison.png)
 
